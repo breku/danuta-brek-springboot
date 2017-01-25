@@ -1,23 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
 
 .navbar {
-  font-family: "Segoe UI Light"
+	font-family: "Segoe UI Light", Times, serif;
 }
 
 .dankabrek-content {
-  margin-top: 56px;
+	margin-top: 56px;
 }
 
-.img-parent {
-  width: 100%;
-  .img-wrapper {
-    width: 50%;
-    margin: 0 auto;
-    img {
-      width:100%;
-      height:90vh;
-      display: block;
-    }
-  }
+#dankabrek-navbar {
+	width: 100%;
+	.navbar-wrapper {
+		width: 50%;
+		margin: 0 auto;
+		.navbar-content {
+			margin-left: 10%;
+			.nav-item {
+				width: 33%;
+			}
+		}
+	}
 }
 
+.home-content {
+
+
+
+	.home-wrapper {
+		width: 100%;
+		.inner-wrapper {
+			width: 50%;
+			margin: 0 auto;
+
+			.home-text {
+				width: 70%;
+				margin: 0 auto;
+				font-family: Mistral, Times, serif;;
+				font-size: 1.3em;
+				.name{
+					font-family: Courier New, Times, serif;
+					font-style: oblique;
+				}
+
+				.text-row{
+					width: 100%;
+				}
+			}
+
+			img {
+				width: 100%;
+				height: 70vh;
+				display: block;
+			}
+		}
+	}
+
+}
